@@ -35,7 +35,7 @@ class Rectangulo
      */
     public function calcularArea()
     {
-        return $this->base + $this->altura;
+        return $this->base * $this->altura;
     }
 
     /**
